@@ -1,0 +1,40 @@
+.card {
+    background-color: #f1f1f1;
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #e6e6e6;
+    display: grid;
+    justify-content: normal;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 400ms;
+}
+.card:hover {
+    box-shadow: none;
+    background-color: #e2e2e2;
+}
+.cardData {
+    padding: 0px 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+.cardControls {
+    fill: #e4cc75;
+    height: 25px;
+    cursor: pointer;
+    transition: fill 300ms;
+}
+.cardControls:focus {
+    outline: none !important;
+}
+.cardControls:hover,
+.cardControls:active {
+    fill: #f7ca18;
+}
+.cardControls:active {
+    transform: translateY(1px);
+}

@@ -1,0 +1,12 @@
+export const ADD = "ADD";
+export const ADDTODO = "ADDTODO";
+export const REMOVE = "REMOVE";
+export const REMOVE2 = "REMOVE2";
+export const OPENMODAL = "OPENMODAL";
+export const EDIT = "EDIT";
+export const CHANGE = "CHANGE";
+export const VISIBLITY = "VISIBLITY";
+export const HIDDEN = "HIDDEN";
+export const SETTINGSOPEN = "SETTINGSOPEN";
+export const CLOSESETTING = "CLOSESETTING";
+export const HIDINGFET = "HIDINGFET"; 

@@ -1,0 +1,53 @@
+.Modal {
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    width: 50%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+.modalData {
+    height: 85%;
+    text-align: left;
+    outline: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.modalData:focus {
+    outline: none !important;
+}
+.modalController {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.modalController button{
+    background-color: #fff;
+    border: 1.5px solid #f6d55c;
+    border-radius: 10px;
+    width: 60px;
+    padding: 2px 5px;
+    outline: none;
+    box-shadow: none;
+    transition: background-color 300ms ease-in;
+}
+.modalController button:active {
+    transform: translateY(1px);
+}
+.modalController button:hover {
+    background-color: #f6d55c;
+}
+.modalController button:focus{
+    outline: none;
+}
+.cancleBtn {
+    margin-right: 5px;
+}
